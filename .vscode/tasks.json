@@ -1,0 +1,33 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "read.md",
+            "type": "shell",
+            // "command": "cd ../trunk/gameclient/cmd && call openread",
+            "command":"cd ../../cmd & browseropen",
+            "args": [
+                // "${workspaceFolder}",
+                // "http://127.0.0.1:8001/project1/Client/doc/doc.html?file=read.md"
+                // "http://127.0.0.1:8001/project1/Client/doc/doc2.html",
+                // "file",
+                // "project1/Client/doc/read.md"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "nginx_start",
+            "type": "shell",
+            "command":"cd ../../cmd & call nginx_start",
+            "problemMatcher": []
+        },
+        {
+            "label": "commit ${file}",
+            "type": "shell",
+            "command":"cd ../../ && call project_config cmd commit_file ${file}",
+            "problemMatcher": []
+        },
+    ]
+}
