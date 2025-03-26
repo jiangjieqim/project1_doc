@@ -73,3 +73,5 @@ mapshow=1 绘制map_x.json 位置
 showpathId=1 绘制指定的路径
 
 `chapter_id=1` 进入章节f_id为1的场景
+
+commonTimesClear 清理领奖状态  
