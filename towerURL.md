@@ -74,4 +74,4 @@ showpathId=1 绘制指定的路径
 
 `chapter_id=1` 进入章节f_id为1的场景
 
-commonTimesClear 清理领奖状态  
+commonTimesGuide1Clear 清理新手引导的领奖状态  
