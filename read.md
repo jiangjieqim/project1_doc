@@ -11,6 +11,8 @@
 {r}★{!r}[背包塔防](#背包塔防)  
 ---{r}塔防管理版本后台{!r}{h}http://platform-tower.sg.wanhuir.com/login{!h}  
 ---{r}资源上传{!r}{h}http://platform.sg.wanhuir.com/login{!h}  
+{h}https://tower.test.docater1.cn/new#/operate/resource{!h}  
+
 ---{r}更新代码{!r}{h}:8005/api?func=f_up_gameclient&name=towertrunk{!h}  
 ---{r}测试后台{!r}{h}https://tower.test.docater1.cn/{!h}  
 ---数数{h}http://47.101.34.133:8993/#/project{!h}  
